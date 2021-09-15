@@ -1,0 +1,104 @@
+1) If Statment 
+
+
+#! /bin/bash 
+
+round=8
+
+if [ $round -eq 8 ]
+then
+	echo "Statment is true"
+fi 	
+
+
+
+
+2) If else statment
+
+#! /bin/bash 
+
+round=8
+
+if [ $round -eq 10 ]
+then
+        echo "the condition is true"
+else
+        echo "the condition is false"
+fi
+
+
+
+#! /bin/bash 
+
+round=8
+
+if [ $round -ne 9 ]
+then
+        echo "This is helsinki"
+else
+        echo "This is arthuro"
+fi
+
+
+
+#! /bin/bash 
+
+round=20 
+
+if (( $round < 80 ))
+then 
+	echo "This is berlin"
+else 
+	echo "This is denver"
+fi 
+
+
+
+
+3) Else if statement 
+
+round=22
+
+if (( $round < 12 ))
+then 
+	echo "The statement is true"
+elif (( $round <= 15 ))
+then 
+	echo "The statement is true"
+else 
+	echo "The statement is false"
+fi 
+
+
+
+#! /bin/bash 
+
+round=30
+
+if [ $round -ge 54 ]
+then
+	echo "The statment is true"
+elif  [ $round -ne 12 ]
+then
+	echo "The statment is slightly true"
+else
+	echo "The statement is false"
+fi 
+
+
+4)AND operator
+
+#! /bin/bash 
+
+age=20
+
+if [ $age -gt 40 ] && [ $age -lt 36 ]
+then 
+	echo "Age is verified"
+else 
+	echo "Age is not verified"
+fi 
+
+
+
+
