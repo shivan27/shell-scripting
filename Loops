@@ -1,0 +1,102 @@
+1)While loop
+
+#! /bin/bash
+
+number=1 
+
+while [ $number -lt 10 ]
+do 
+	echo "$number"
+	number=$((number+1))
+done 
+
+
+#! /bin/bash
+
+number=1 
+
+while [ $number -lt 10 ]
+do 
+	echo "$number"
+	number=$((number+1))
+done 
+
+
+2)Until Loop
+
+#! /bin/bash 
+
+number=1
+
+until [ $number -gt 10 ]
+do 
+	echo $number 
+	number=$(( number+1 ))
+done 
+
+
+3)For loop
+
+#! /bin/bash 
+
+for s in 1,2,3,4,5,6,7,8
+do 
+	echo $s
+done
+
+
+#! /bin/bash 
+
+for s in {2..50}
+do 
+	echo $s
+done
+
+
+#! /bin/bash 
+
+for s in {0..30..3}
+do 
+	echo $s
+done
+
+
+#! /bin/bash 
+
+for (( s=0; s<20; s++ ))
+do 
+	echo $s
+done
+
+
+4) Break and continue 
+
+(Break)
+#! /bin/bash 
+
+for s in {0..20}
+do 
+	if [ $s -gt 10 ]
+	then
+		break
+	fi
+	echo $s
+done
+
+
+(Continue)
+#! /bin/bash 
+
+for s in {0..20}
+do 
+	if [ $s -eq 5 -o $s -eq 18 ]
+	then
+		continue
+	fi
+	echo $s
+done
+
+
+
+
+
