@@ -100,5 +100,73 @@ else
 fi 
 
 
+#! /bin/bash
+
+age=20
+
+if 
+	[[ $age -lt 10 && $age -gt 15 ]]
+then
+	echo "Age is verified"
+else
+	echo "Age is not verified"
+fi 
+
+#! /bin/bash
+
+age=20
+
+if 
+	[ $age -lt 10 -a $age -gt 15 ]
+then
+	echo "Age is verified"
+else
+	echo "Age is not verified"
+fi 
+
+
+
+5) OR operator 
+
+#! /bin/bash 
+
+age=25
+
+if [ $age -gt 30 -o $age -lt 26 ]
+then
+	echo "True"
+else
+	echo "False"
+fi
+
+
+#! /bin/bash 
+
+age=25
+
+if [[ $age -gt 30 || $age -lt 26 ]]
+then
+	echo "True"
+else
+	echo "False"
+fi
+
+
+#! /bin/bash 
+
+age=25
+
+if [ $age -gt 30 ] || [ $age -lt 26 ]
+then
+	echo "True"
+else
+	echo "False"
+fi
+
+
+
+
+
+
 
 
