@@ -1,0 +1,35 @@
+#! /bin/bash
+
+echo $0  $1 $2 $3
+
+
+#! /bin/bash 
+
+array=("$@")
+
+echo ${array[0]} ${array[1]} ${array[2]}
+
+
+#! /bin/bash 
+
+array=("$@")
+
+echo $@
+
+
+#! /bin/bash 
+
+array=("$@")
+
+echo $@
+
+echo $#
+
+
+#! /bin/bash 
+
+echo $@
+
+echo $#
+
+
