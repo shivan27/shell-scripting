@@ -1,0 +1,16 @@
+#! /bin/bash 
+
+echo "enter 1st string"
+read s1
+
+echo "enter 2nd string"
+read s2
+
+if [ "$s1" == "$s2" ]
+then
+	echo "sting match"
+else
+	echo "string don't match"
+fi 
+
+
