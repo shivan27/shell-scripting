@@ -1,0 +1,17 @@
+#! /bin/bash 
+
+round=13
+
+if [ $round -eq 13 ]
+then 
+	echo "This file succesfully transfered"
+fi 
+export round 
+bash script35.sh
+
+
+#! /bin/bash 
+
+echo "The file from script34 is : $round"
+
+
