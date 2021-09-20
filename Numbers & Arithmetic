@@ -1,0 +1,33 @@
+Arithmetic
+
+(1st way)
+#! /bin/bash 
+
+v1=32
+v2=68
+
+echo $(( v1 + v2 ))
+
+
+#! /bin/bash 
+
+v1=32
+v2=68
+
+echo $(( v1 + v2 ))
+echo $(( v1 - v2 ))
+echo $(( v1 / v2 ))
+echo $(( v1 * v2 ))
+echo $(( v1 % v2 ))
+
+(2nd way)
+#! /bin/bash 
+
+v1=32
+v2=68
+
+echo $(expr $v1 + $v2)
+echo $(expr $v1 - $v2)
+echo $(expr $v1 / $v2)
+echo $(expr $v1 \* $v2)
+echo $(expr $v1 % $v2)
