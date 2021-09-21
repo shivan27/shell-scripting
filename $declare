@@ -1,0 +1,44 @@
+(terminal)
+declare -p
+
+man declare 
+
+declare scriptd
+
+declare -p | grep script
+
+declare script=50
+
+declare -p | grep script
+
+declare script=63
+
+declare -p | grep script
+
+(scripting)
+#! /bin/bash
+
+declare -r scriptdec=/home/fedoraserver1/script 
+
+echo $scriptdec
+
+
+#! /bin/bash
+
+declare -r scriptdec=/home/fedoraserver1/script/
+
+echo $scriptdec
+
+scriptdec=/home/fedoraserver1/script/scriptc/dec.txt
+
+
+#! /bin/bash
+
+declare -r scriptdec=/home/fedoraserver1/script/
+
+echo $scriptdec
+
+scriptdec=/home/fedoraserver1/script/scriptc/dec.txt
+
+echo $scriptdec
+
