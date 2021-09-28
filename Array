@@ -1,0 +1,61 @@
+#! /bin/bash 
+
+distribution=("fedora" "centos" "rocky")
+
+echo "${distribution[@]}"
+
+
+#! /bin/bash 
+
+distribution=("fedora" "centos" "rocky")
+
+echo "${distribution[2]}"
+
+
+#! /bin/bash 
+
+distribution=("fedora" "centos" "rocky")
+
+echo "${!distribution[@]}"
+
+
+#! /bin/bash 
+
+distribution=("fedora" "centos" "rocky")
+
+echo "${!distribution[@]}"
+
+echo "${distribution[@]}"
+
+
+#! /bin/bash 
+
+distribution=("fedora" "centos" "rocky")
+
+echo "${!distribution[@]}"
+
+echo "${distribution[@]}"
+
+echo "${#distribution[@]}"
+
+
+#! /bin/bash 
+
+distribution=("fedora" "centos" "rocky")
+
+echo "${#distribution}"
+
+
+#! /bin/bash 
+
+distribution=("fedora" "centos" "rocky")
+
+unset distribution[1]
+echo "${!distribution[@]}"
+
+echo "${distribution[@]}"
+
+echo "${#distribution[@]}"
+
+
+
