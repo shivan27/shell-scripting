@@ -1,0 +1,60 @@
+#! /bin/bash 
+
+function distro()
+{
+	echo "this is new function"
+
+}
+
+distro
+
+
+#! /bin/bash 
+
+function distro()
+{
+	echo "$2"
+
+}
+
+distro Linux for the needy
+
+
+#! /bin/bash 
+
+function distro()
+{
+	echo "$2" "$3" "$1"
+
+}
+
+distro Linux for the needy
+
+
+#! /bin/bash 
+
+function con()
+{
+	confirmation="Reconfirmation of Function"
+	echo "$confirmation"
+
+}
+
+con 
+
+
+#! /bin/bash 
+
+function person()
+{
+	name="Shivan"
+
+}
+
+name="Kumaran"
+echo "$name"
+
+person
+echo "$name"
+
+
