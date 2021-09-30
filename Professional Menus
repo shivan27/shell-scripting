@@ -1,0 +1,45 @@
+#! /bin/bash 
+
+select name in Shivan Alizen Nehru Ravi 
+do 
+	echo "You have selected $name"
+done
+
+
+#! /bin/bash 
+
+select name in Shivan Alizen Nehru Ravi 
+do 
+	case $name in 
+	Shivan)
+		echo "Shivan selected";;
+	Alizen)
+		echo "Alizen selected";;
+	Nehru)
+		echo "Nehru selected";;
+	Ravi) 
+		echo "Ravi selected";;
+	*) 
+		echo "ERROR! Please select between 1..4";;
+
+	esac
+done 
+
+
+#! /bin/bash 
+
+echo "press any key to continue"
+
+while [ true ]
+do 
+	read -t 5 -n 2 
+if [ $? = 0 ]
+then 
+	echo " you have terminated from the script "
+	exit;
+else
+	echo "waiting for you enter any key"
+fi 
+
+done 
+
