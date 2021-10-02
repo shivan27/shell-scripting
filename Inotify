@@ -1,0 +1,6 @@
+#! /bin/bash 
+
+mkdir -p script/scriptc/script1
+inotifywait -m script/scriptc/script1
+
+
