@@ -1,0 +1,46 @@
+#! /bin/bash 
+
+echo "Enter filename to search the text from"
+read filename
+
+if [ -f $filename ]
+then 
+	echo "Enter the text to search"
+	read grepvar
+	grep -i -n $grepvar $filename
+
+else 
+	echo "File doesn't exist"
+fi 
+
+
+#! /bin/bash 
+
+echo "Enter filename to search the text from"
+read filename 
+
+if [ -f $filename ]
+then 
+	echo "Enter the text to search"
+	read grepvar 
+	grep -i -c $grepvar $filename 
+
+else 
+	echo "file doesn't exist"
+fi
+
+
+#! /bin/bash 
+
+echo "Enter the filename to search the text from"
+read filename
+
+if [ -f $filename ]
+then 
+	echo "Enter the text to search"
+	read grepvar
+	grep -i -v $grepvar $filename
+
+else 
+	echo "File doesn/t exist"
+fi 
